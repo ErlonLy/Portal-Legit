@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
+// Altere aqui para o NOME do seu repositório:
 export default defineConfig({
   plugins: [react()],
-  base: '/https://github.com/ErlonLy/Portal-Legit/', // 👈 importante para GitHub Pages
-})
+  base: "/Portal-Legit/",
+});
